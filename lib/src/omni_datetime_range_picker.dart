@@ -110,7 +110,6 @@ class _OmniDateTimeRangePickerState extends State<OmniDateTimeRangePicker>
   Widget build(BuildContext context) {
     return Dialog(
       backgroundColor: Colors.transparent,
-      alignment: Alignment.center,
       child: Theme(
         data: ThemeData(
           colorScheme: Theme.of(context).colorScheme.copyWith(
