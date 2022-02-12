@@ -75,7 +75,6 @@ class _OmniDateTimePickerState extends State<OmniDateTimePicker>
   Widget build(BuildContext context) {
     return Dialog(
       backgroundColor: Colors.transparent,
-      alignment: Alignment.center,
       child: Theme(
         data: ThemeData(
           colorScheme: Theme.of(context).colorScheme.copyWith(
